@@ -19,3 +19,5 @@ List of topics:
 
 05 - [Setting up a Statemachine, Character rotation and doublejump behavior](https://www.youtube.com/watch?v=BTX0DWDqnyA)
 
+06 - [We discuss Godots Scene System and Godots Resource System](https://www.youtube.com/watch?v=2aEi2Ffj378&feature=youtu.be)
+
