@@ -1,8 +1,9 @@
 # Godot Tutorial Series
 This is my godot tutorial series project. All Tutorial steps will be here on github as separate release. Just head over to the release section and download the sources. Have fun watching the series and hopefully you can learn something.
 
-You can find the full tutorial Series here:
-https://www.youtube.com/playlist?list=PLPI26-KXCXpBtZGRJizz0cvU88nXB-G14
+Goal of that series is to recreate my [gBot Project](https://www.youtube.com/watch?v=JsuXUr5NCYw&list=UUckpus81gNin1aV8WSffRKw) step by step. We will start very basic and than improve on each step. I also have my final gBot Project [here on github.](https://github.com/ndee85/gBot)
+
+You can find the full tutorial Series [here](https://www.youtube.com/playlist?list=PLPI26-KXCXpBtZGRJizz0cvU88nXB-G14)
 
 List of topics:
 
