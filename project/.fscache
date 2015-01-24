@@ -1,6 +1,9 @@
-::res://::1422079995
-icon.png::ImageTexture::1421696246::
-level_01.xml::PackedScene::1422079995::
-::res://textures::1421696903
-blue_square.png::ImageTexture::1421696711::
-red_square.png::ImageTexture::1421696676::
+::res://::1422094266
+icon.png::ImageTexture::1422081463::
+level_01.xml::PackedScene::1422026529::
+::res://scripts::1422094197
+input_states.gd::GDScript::1422094197::
+player.gd::GDScript::1422094197::
+::res://textures::1422081463
+blue_square.png::ImageTexture::1422081463::
+red_square.png::ImageTexture::1422081463::
