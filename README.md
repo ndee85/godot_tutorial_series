@@ -1,16 +1,18 @@
 # Godot Tutorial Series
-This is my godot tutorial series project. All Tutorial steps will be here on github as separate branches for everyone to follow and try out. I will update the list at the bottom once a new Tut is up.
+This is my godot tutorial series project. All Tutorial steps will be here on github as separate release. Just head over to the release section and download the sources. Have fun watching the series and hopefully you can learn something.
 
-You can find the tutorial Series here:
+You can find the full tutorial Series here:
 https://www.youtube.com/playlist?list=PLPI26-KXCXpBtZGRJizz0cvU88nXB-G14
 
 List of topics:
-01 - Introduction, Interface and Projectsetup
 
-02 - Creating new nodes and applying phyisics
+01 - [Introduction, Interface and Projectsetup](https://www.youtube.com/watch?v=WU6MqaodFyw)
 
-03 - Starting with scripting (creating a basic character movement)
+02 - [Creating new nodes and applying phyisics](https://www.youtube.com/watch?v=LCscuMhFNCU)
 
-04 - Movement Refinement of our character
+03 - [Starting with scripting (creating a basic character movement)](https://www.youtube.com/watch?v=24gyrXZDPpU)
 
-05 - Setting up a Statemachine, Character rotation and doublejump behavior
+04 - [Movement Refinement of our character](https://www.youtube.com/watch?v=Qe7NxP6cyJk)
+
+05 - [Setting up a Statemachine, Character rotation and doublejump behavior](https://www.youtube.com/watch?v=BTX0DWDqnyA)
+
