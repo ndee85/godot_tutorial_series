@@ -21,3 +21,5 @@ List of topics:
 
 06 - [We discuss Godots Scene System and Godots Resource System](https://www.youtube.com/watch?v=2aEi2Ffj378&feature=youtu.be)
 
+07 - [Setting up our visual sprite based character with rig](https://www.youtube.com/watch?v=Mz4wrV0FsDo&list=UUckpus81gNin1aV8WSffRKw)
+
