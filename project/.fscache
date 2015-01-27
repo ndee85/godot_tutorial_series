@@ -1,9 +1,11 @@
-::res://::1422094266
+::res://::1422391025
+character.xml::PackedScene::1422391007::
 icon.png::ImageTexture::1422081463::
-level_01.xml::PackedScene::1422026529::
-::res://scripts::1422094197
-input_states.gd::GDScript::1422094197::
-player.gd::GDScript::1422094197::
-::res://textures::1422081463
+level_01.xml::PackedScene::1422391025::
+level_ground_element_01.xml::PackedScene::1422094586::
+::res://scripts::1422391028
+input_states.gd::GDScript::1422391028::
+player.gd::GDScript::1422391028::
+::res://textures::1422390999
 blue_square.png::ImageTexture::1422081463::
 red_square.png::ImageTexture::1422081463::
