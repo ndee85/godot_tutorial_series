@@ -5,7 +5,7 @@
 	<main_resource>
 		<dictionary name="_bundled" shared="false">
 			<string> "names" </string>
-			<string_array  len="18">
+			<string_array  len="21">
 				<string> "world" </string>
 				<string> "Node2D" </string>
 				<string> "_import_path" </string>
@@ -20,6 +20,9 @@
 				<string> "__meta__" </string>
 				<string> "player" </string>
 				<string> "RigidBody2D" </string>
+				<string> "player_speed" </string>
+				<string> "jumpforce" </string>
+				<string> "extra_gravity" </string>
 				<string> "ground" </string>
 				<string> "StaticBody2D" </string>
 				<string> "ground1" </string>
@@ -32,7 +35,7 @@
 			<string> "node_count" </string>
 			<int> 5 </int>
 			<string> "variants" </string>
-			<array  len="17" shared="false">
+			<array  len="20" shared="false">
 				<node_path> "" </node_path>
 				<bool> True </bool>
 				<real> 1 </real>
@@ -62,7 +65,7 @@
 							<string> "use_snap" </string>
 							<bool> False </bool>
 							<string> "ofs" </string>
-							<vector2> -590.935, -324.265 </vector2>
+							<vector2> -384.374, -442.628 </vector2>
 							<string> "snap" </string>
 							<int> 10 </int>
 						</dictionary>
@@ -175,6 +178,9 @@
 					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
 				</dictionary>
+				<int> 1200 </int>
+				<int> 1000 </int>
+				<int> 2000 </int>
 				<resource  resource_type="PackedScene" path="res://level_ground_element_01.xml">  </resource>
 				<dictionary  shared="false">
 					<string> "_editor_collapsed" </string>
@@ -186,7 +192,7 @@
 				<real> 0.222343 </real>
 			</array>
 			<string> "nodes" </string>
-			<int_array  len="81"> 				-1, -1, 1, 0, -1, 10, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 1, 11, 7, 0, 0, 0, 13, 12, 8, 3, 2, 0, 6, 9, 11, 10, 0, 0, 0, 15, 14, 11, 2, 2, 0, 11, 12, 0, 0, 0, 15, 16, 11, 4, 2, 0, 6, 13, 7, 14, 11, 12, 0, 0, 0, 15, 17, 11, 4, 2, 0, 6, 15, 7, 16, 11, 12, 0 </int_array>
+			<int_array  len="87"> 				-1, -1, 1, 0, -1, 10, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 1, 11, 7, 0, 0, 0, 13, 12, 8, 6, 2, 0, 6, 9, 11, 10, 14, 11, 15, 12, 16, 13, 0, 0, 0, 18, 17, 14, 2, 2, 0, 11, 15, 0, 0, 0, 18, 19, 14, 4, 2, 0, 6, 16, 7, 17, 11, 15, 0, 0, 0, 18, 20, 14, 4, 2, 0, 6, 18, 7, 19, 11, 15, 0 </int_array>
 			<string> "conns" </string>
 			<int_array  len="0"> 				 </int_array>
 		</dictionary>
