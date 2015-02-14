@@ -23,3 +23,9 @@ List of topics:
 
 07 - [Setting up our visual sprite based character with rig](https://www.youtube.com/watch?v=Mz4wrV0FsDo&list=UUckpus81gNin1aV8WSffRKw)
 
+08 - [Animation our Character](https://www.youtube.com/watch?v=YxEfZQeySGQ)
+
+09 - [Combine the animated Character with the scripted character](https://www.youtube.com/watch?v=m9dHm8UrzG8)
+
+10 - [Add touch buttons and resolution independent viewport zoom](https://www.youtube.com/watch?v=gylnwemFIZc)
+
