@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="3" version="1.0" version_name="Godot Engine v1.0.stable.custom_build">
+<resource_file type="PackedScene" subresource_count="10" version="1.0" version_name="Godot Engine v1.0.stable.custom_build">
+	<ext_resource path="res://textures/buttons/touch_left.png" type="Texture"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_right.png" type="Texture"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_left_pressed.png" type="Texture"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_right_pressed.png" type="Texture"></ext_resource>
+	<ext_resource path="res://scripts/touch_screen_button.gd" type="Script"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_jump.png" type="Texture"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_jump_pressed.png" type="Texture"></ext_resource>
 	<ext_resource path="res://character.xml" type="PackedScene"></ext_resource>
 	<ext_resource path="res://level_ground_element_01.xml" type="PackedScene"></ext_resource>
 	<main_resource>
 		<dictionary name="_bundled" shared="false">
 			<string> "names" </string>
-			<string_array  len="21">
+			<string_array  len="39">
 				<string> "world" </string>
 				<string> "Node2D" </string>
 				<string> "_import_path" </string>
@@ -27,15 +34,33 @@
 				<string> "StaticBody2D" </string>
 				<string> "ground1" </string>
 				<string> "ground2" </string>
+				<string> "gui" </string>
+				<string> "CanvasLayer" </string>
+				<string> "layer" </string>
+				<string> "offset" </string>
+				<string> "rotation" </string>
+				<string> "scale" </string>
+				<string> "script/script" </string>
+				<string> "left_inputs" </string>
+				<string> "left" </string>
+				<string> "TouchScreenButton" </string>
+				<string> "normal" </string>
+				<string> "pressed" </string>
+				<string> "bitmask" </string>
+				<string> "passby_press" </string>
+				<string> "action" </string>
+				<string> "visibility_mode" </string>
+				<string> "right" </string>
+				<string> "right_inputs" </string>
 			</string_array>
 			<string> "version" </string>
 			<int> 1 </int>
 			<string> "conn_count" </string>
 			<int> 0 </int>
 			<string> "node_count" </string>
-			<int> 5 </int>
+			<int> 11 </int>
 			<string> "variants" </string>
-			<array  len="20" shared="false">
+			<array  len="37" shared="false">
 				<node_path> "" </node_path>
 				<bool> True </bool>
 				<real> 1 </real>
@@ -49,11 +74,13 @@
 						<string> "Script" </string>
 						<dictionary  shared="false">
 							<string> "current" </string>
-							<int> 0 </int>
+							<int> 3 </int>
 							<string> "sources" </string>
-							<array  len="2" shared="false">
+							<array  len="4" shared="false">
 								<string> "res://scripts/player.gd" </string>
 								<string> "res://scripts/input_states.gd" </string>
+								<string> "res://scripts/global.gd" </string>
+								<string> "res://scripts/touch_screen_button.gd" </string>
 							</array>
 						</dictionary>
 						<string> "2D" </string>
@@ -65,7 +92,7 @@
 							<string> "use_snap" </string>
 							<bool> False </bool>
 							<string> "ofs" </string>
-							<vector2> -384.374, -442.628 </vector2>
+							<vector2> -632, -611.99 </vector2>
 							<string> "snap" </string>
 							<int> 10 </int>
 						</dictionary>
@@ -177,22 +204,40 @@
 				<dictionary  shared="false">
 					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
+					<string> "__editor_show_subtree" </string>
+					<bool> True </bool>
 				</dictionary>
 				<int> 1200 </int>
-				<int> 1000 </int>
-				<int> 2000 </int>
+				<int> 1400 </int>
+				<int> 2800 </int>
 				<resource  resource_type="PackedScene" path="res://level_ground_element_01.xml">  </resource>
 				<dictionary  shared="false">
 					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
 				</dictionary>
-				<vector2> 1007.29, 245.13 </vector2>
-				<real> 40.901497 </real>
-				<vector2> 1685.38, -7.06762 </vector2>
+				<vector2> 1157.61, 353.692 </vector2>
+				<real> 19.574837 </real>
+				<vector2> 1919.21, 220.077 </vector2>
 				<real> 0.222343 </real>
+				<int> 1 </int>
+				<resource  resource_type="Script" path="res://scripts/touch_screen_button.gd">  </resource>
+				<vector2> 0.4, 0.4 </vector2>
+				<vector2> 3.34033, -779.975 </vector2>
+				<resource  resource_type="Texture" path="res://textures/buttons/touch_left.png">  </resource>
+				<resource  resource_type="Texture" path="res://textures/buttons/touch_left_pressed.png">  </resource>
+				<resource name=""></resource>				<bool> False </bool>
+				<string> "btn_left" </string>
+				<vector2> 310.654, -414.205 </vector2>
+				<resource  resource_type="Texture" path="res://textures/buttons/touch_right.png">  </resource>
+				<resource  resource_type="Texture" path="res://textures/buttons/touch_right_pressed.png">  </resource>
+				<string> "btn_right" </string>
+				<vector2> -469.321, -452.619 </vector2>
+				<resource  resource_type="Texture" path="res://textures/buttons/touch_jump.png">  </resource>
+				<resource  resource_type="Texture" path="res://textures/buttons/touch_jump_pressed.png">  </resource>
+				<string> "btn_jump" </string>
 			</array>
 			<string> "nodes" </string>
-			<int_array  len="87"> 				-1, -1, 1, 0, -1, 10, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 1, 11, 7, 0, 0, 0, 13, 12, 8, 6, 2, 0, 6, 9, 11, 10, 14, 11, 15, 12, 16, 13, 0, 0, 0, 18, 17, 14, 2, 2, 0, 11, 15, 0, 0, 0, 18, 19, 14, 4, 2, 0, 6, 16, 7, 17, 11, 15, 0, 0, 0, 18, 20, 14, 4, 2, 0, 6, 18, 7, 19, 11, 15, 0 </int_array>
+			<int_array  len="267"> 				-1, -1, 1, 0, -1, 10, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 1, 11, 7, 0, 0, 0, 13, 12, 8, 6, 2, 0, 6, 9, 11, 10, 14, 11, 15, 12, 16, 13, 0, 0, 0, 18, 17, 14, 2, 2, 0, 11, 15, 0, 0, 0, 18, 19, 14, 4, 2, 0, 6, 16, 7, 17, 11, 15, 0, 0, 0, 18, 20, 14, 4, 2, 0, 6, 18, 7, 19, 11, 15, 0, 0, 0, 22, 21, -1, 6, 2, 0, 23, 20, 24, 3, 25, 4, 26, 5, 27, 21, 0, 5, 0, 1, 28, -1, 9, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 22, 9, 6, 10, 1, 0, 6, 0, 30, 29, -1, 15, 2, 0, 3, 1, 4, 2, 5, 2, 6, 23, 7, 4, 8, 5, 9, 6, 10, 1, 31, 24, 32, 25, 33, 26, 34, 27, 35, 28, 36, 6, 0, 6, 0, 30, 37, -1, 15, 2, 0, 3, 1, 4, 2, 5, 2, 6, 29, 7, 4, 8, 5, 9, 6, 10, 1, 31, 30, 32, 31, 33, 26, 34, 27, 35, 32, 36, 6, 0, 5, 0, 1, 38, -1, 9, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 22, 9, 6, 10, 1, 0, 9, 0, 30, 30, -1, 15, 2, 0, 3, 1, 4, 2, 5, 2, 6, 33, 7, 4, 8, 5, 9, 6, 10, 1, 31, 34, 32, 35, 33, 26, 34, 27, 35, 36, 36, 6, 0 </int_array>
 			<string> "conns" </string>
 			<int_array  len="0"> 				 </int_array>
 		</dictionary>
